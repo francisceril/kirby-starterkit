@@ -42,7 +42,7 @@ named `config.json`. You can define a custom domain that new file.
 
 ```
 cd [root folder of this repo]
-npm build
+npm start
 ```
 
 This will run BrowserSync and watch your CSS, JS, and template files for changes.
