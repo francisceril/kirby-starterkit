@@ -13,6 +13,6 @@
         "postcss-calc": "^7.0.1",
         "tailwindcss": "^1.1.2",
         "sass": "^1.22.10",
-        "sass-loader": "7.*",
+        "sass-loader": "7.*"
     }
 }
