@@ -28,16 +28,16 @@ mix.options({
     ]
 });
 
-mix.js('src/js/app.js', 'public/assets/js');
-mix.sass('src/sass/app.sass', 'public/assets/css');
+mix.js('src/js/app.js', 'public/js');
+mix.sass('src/sass/app.sass', 'public/css');
 
 mix.browserSync({
     proxy: {
         target: config.host,
     },
     files: [
-        'public/assets/css/*.css',
-        'public/assets/js/*.js',
+        'public/css/*.css',
+        'public/js/*.js',
         'site/snippets/**/*.php',
         'site/templates/**/*.php',
     ],
@@ -47,18 +47,4 @@ mix.browserSync({
 
 mix.sourceMaps();
 mix.disableSuccessNotifications();
-mix.setPublicPath('public/assets');
-
-mix.webpackConfig({
-    output: {
-        publicPath: '/assets/',
-    },
-    plugins: [],
-    stats: {
-        assets: false,
-        chunks: false,
-        hash: false,
-    },
-});
-
 mix.version();
