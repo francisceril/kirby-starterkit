@@ -12,7 +12,7 @@ Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.
 ### Step 1: Clone the repo into an empty folder
 
 ```
-git clone git@github.com:francisceril/kirby-starterkit.git
+git clone git@github.com:francisceril/kirby-tailwind-starterkit.git
 ```
 
 ### Step 2: Install Kirby CMS
